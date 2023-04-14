@@ -1,0 +1,49 @@
+.wrapper {}
+
+.header {}
+
+.container {}
+
+.header_container {}
+
+.main {}
+
+.hero {}
+
+.hero__main {}
+
+.hero__advantage {}
+
+.logo {
+    margin-left: 1%;
+    position: absolute;
+}
+
+.nav__list {
+    display: flex;
+    margin-left: 25%;
+    padding-top: 1.5%;
+}
+
+.nav__item {
+    margin: 10px;
+
+}
+
+.nav__link {}
+
+.contact__list {
+    display: flex;
+    margin-left: 50%;
+    padding-top: 1%;
+}
+
+.contact__item {
+    margin: 10px;
+}
+
+.contact__link {}
+
+.wrapper {
+    background-color: aquamarine;
+}
