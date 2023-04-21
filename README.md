@@ -1,2 +1,1 @@
-# Car-Repairing-Project
-This is my first adaptive HTML project
+https://hpy0ma.github.io/Car-Repairing-Project/
