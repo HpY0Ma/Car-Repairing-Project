@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100%;
 }
 .header {
-    background-color: blue;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 .container {
     min-width: 1130px;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .header_container {
-    min-width: 1370px;
+
 }
 .logo {
 }
@@ -76,7 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 .main {
 }
 .hero {
-    background-color: purple;
+    background: url(../img/Content/firstbg.png) no-repeat center/cover;
+    padding-top: 272px;
+    color: white;
+    height: 100vh;
 }
 .hero__main {
 }
@@ -85,14 +88,48 @@ h1, h2, h3, h4, h5, h6 {
 .hero__subtitle {
 }
 .hero_btns {
+    display: flex;
+    column-gap: 20px;
 }
+
 .btn {
+    border-radius: 4px;
+    background: none;
+    min-width: 170px;
+    padding: 12px 16px;
 }
+
+.btn-theme-white {
+    border: solid 2px white;
+    color: white;
+}
+
 .hero__call-top-action {
+
 }
+
+.hero__call-top-action span{
+    
+}
+
 .advantages {
+    display: flex;
+    padding: 20px 0px 20px 0;
+    column-gap: 30px;
+    justify-content: space-between;
 }
 .advantage {
+    border-radius: 4px;
+    text-align: center;
+    padding: 16px 20px;
 }
 .advantage__desc {
+}
+
+.advantage_theme_transparent {
+    border: 2px solid white;
+}
+
+.hero__advantage {
+    
 }
