@@ -91,6 +91,36 @@ h6 {
 
 .tel {}
 
+.burger {
+    width: 41px;
+    display: flex;
+    align-items: center;
+    height: 31px;
+    position: relative;
+    display: none;
+
+}
+
+.burger__el,
+.burger__el::before,
+.burger__el::after {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 11px;
+}
+
+.burger__el::before {
+    content: "";
+    position: absolute;
+}
+
+.burger__el::before {
+    top: 0;
+    left: 0;
+}
+
 .main {}
 
 .hero {
@@ -103,10 +133,23 @@ h6 {
     padding-bottom: 50px;
 }
 
+.hero::after {
+    content: "";
+    display: block;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 19.11%);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+}
+
 .hero__container {
     flex: 1;
     display: flex;
     flex-direction: column;
+    z-index: 10px;
+
 }
 
 .hero__main {
@@ -184,7 +227,7 @@ span {
 
 }
 
-@media (max-width: 725px) {
+@media (max-width: 768px) {
     .container {
         max-width: 725px;
     }
@@ -203,6 +246,7 @@ span {
 
     .hero {
         padding-top: 170px;
+        padding: ;
     }
 
     .hero__advantage {
@@ -218,5 +262,9 @@ span {
     .advantage__img {
         width: 24px;
         height: 24px;
+    }
+
+    .burger {
+        display: flex;
     }
 }
