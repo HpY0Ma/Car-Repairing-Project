@@ -148,13 +148,14 @@ h6 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    z-index: 10px;
-
+    padding-top: 27.7%;
+    z-index: 100%;
 }
 
 .hero__main {
     padding-left: 92px;
     border-color: blue;
+
 }
 
 .Title {}
@@ -267,4 +268,51 @@ span {
     .burger {
         display: flex;
     }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 90.6%;
+    }
+
+    .hero__subtitle {
+        font-size: 14px;
+    }
+
+    .Title {
+        font-size: 25px;
+    }
+
+    .hero__btns {
+        flex-wrap: wrap;
+        row-gap: 14px;
+
+    }
+
+    .advantages {
+        flex-direction: column;
+    }
+
+    .advantage {
+        flex: 0 1 56px;
+        text-align: inherit;
+        flex-direction: row;
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0);
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
+.advantage__img path {
+    fill: black;
+}
+
+.advantage__img {
+    
 }
