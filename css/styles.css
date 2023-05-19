@@ -56,13 +56,19 @@ h6 {
 
 .header_container {}
 
-.logo {}
+.logo {
+    padding-right: 50%;
+}
 
-.logo2 {}
+.logo2 {
+    position: absolute;
+}
 
 .nav__list {
+    padding: 30px;
     column-gap: 34px;
     display: flex;
+    
 }
 
 .location {}
@@ -87,9 +93,29 @@ h6 {
 
 .contacts {}
 
-.location {}
+.location {
+    font-family: Arial, Helvetica, sans-serif;
+    left: 55%;
+    position: absolute;
+    top: 43%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
 
-.tel {}
+.tel {
+    font-family: Arial, Helvetica, sans-serif;
+    left: 85%;
+    position: absolute;
+    top: 57%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
 
 .burger {
     width: 41px;
@@ -126,9 +152,7 @@ h6 {
 .hero {
     display: flex;
     background: url(../img/Content/firstbg.png) no-repeat center/cover;
-    padding-top: 272px;
     color: white;
-    height: 100vh;
     flex-direction: column;
     padding-bottom: 50px;
 }
@@ -158,7 +182,8 @@ h6 {
 
 }
 
-.Title {}
+.Title {
+}
 
 .hero__subtitle {}
 
@@ -167,11 +192,15 @@ h6 {
     column-gap: 20px;
 }
 
-.btn {
+.btn,
+.ntb {
+    text-decoration: none;
     border-radius: 4px;
     background: none;
     min-width: 170px;
     padding: 12px 16px;
+    border: solid 2px white;
+    color: white;
 }
 
 .btn-theme-white {
@@ -185,21 +214,17 @@ h6 {
 
 .advantages {
     display: flex;
-    padding: 20px 0px 20px 0;
-    column-gap: 30px;
-    justify-content: space-between;
+    margin-left: 45px;
 }
 
 .advantage {
-    border-radius: 4px;
-    text-align: center;
-    padding: 16px 20px;
+
 }
 
 .advantage__desc {}
 
 .advantage_theme_transparent {
-    border: 2px solid white;
+    display: flex;
 }
 
 .hero__advantage {}
@@ -216,6 +241,7 @@ span {
 
     .hero {
         padding: 210px;
+
     }
 
     .container {
@@ -313,6 +339,399 @@ span {
     fill: black;
 }
 
-.advantage__img {
+.advantage__img {}
+
+.welcome {
+    padding-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+
+    color: #E7E7E7;
+}
+
+.welcome__gr {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #252525;
+}
+
+.numbers_1,
+.number__2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 117px;
+    text-align: center;
+    display: flex;
+    color: #E7E7E7;
+    max-height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.number__1 {
+    padding-left: 25%;
+}
+
+.descreptions {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #252525;
+}
+
+.descreption_1 {
+    position: absolute;
+    left: 58%;
+    top: 137%;
+}
+
+.descreption_2 {
+    position: absolute;
+    left: 28%;
+    top: 137%;
+}
+
+.hero_2 {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    background: url(../img/Content/car.png) no-repeat center/cover;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 700px;
+}
+
+.welcome_3 {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+}
+
+.desc_3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 25px;
+    color: #FFFFFF;
+}
+
+.boxes {
+    display: flex;
+    text-decoration: none;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.box__item {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 211px;
+    height: 211px;
+    margin: 25px;
+    display: flex;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box {}
+
+.svgsh {
+    margin-right: 50%;
+}
+
+.examples {}
+
+.example__welcome {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.example__desc {
+    padding-top: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.example__img-block {
+    padding-top: 25px;
+    display: flex;
+}
+
+.repaired__car {
+    padding-top: 25px;
+    margin-right: 25px;
+    margin-left: 175%;
+}
+
+.button2 {
+    margin-top: 35px;
+    margin-left: 50%;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.reviews {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    background: url(../img/Elements/Mask\ group\ \(2\).png) no-repeat center/cover;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.reviews__welcome {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.reviews__desc {
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 25px;
+
+    text-align: center;
+
+}
+
+.review {
+    display: flex;
+    padding-left: 30%;
+}
+
+.review__img {
+    padding-top: 50px;
+}
+
+.order__hero {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    background: url(../img/Elements/XXL\ 1.jpg) no-repeat center/cover rgba(0, 0, 0, 0.755);
+    color: white;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+
+.order__welcome {
+    margin-top: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000
+}
+
+.left__sec {
+    padding-left: 25%;
+    margin-top: 50px;
+}
+
+.order__desc {
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 50px;
+
+    color: #000000;
+}
+
+.add__file-btn {
+    background: #000000;
+    border: 4px solid #FFFFFF;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    height: 60px;
+    width: 200px;
+    text-align: center
+}
+
+.order__input {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: gray;
+}
+
+.right_sec {
+    margin-left: 55%;
+}
+
+.order__call_btn {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 45px;
+border: #E7E7E7 2px;
+text-align: center;
+box-sizing: border-box;
+width: 500px;
+
+border: 4px solid #FFFFFF;
+
+border-radius: 10px;
+
+color: #FFFFFF;
+}
+
+.down__desc {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    background: #404040;;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.map_section {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    background: url(../img/Elements/map.jpg) no-repeat center/cover;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.down__desc {
+}
+.hero_3 {
+    display: flex;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+margin-left: 160px;
+margin-top: 25px;
+
+
+}
+.logoty {
+    margin-right: 25px;
+}
+.lct {
+    margin-top: 25px;
+    margin-right: 45px;
+}
+.rec_info {
+    margin-top: 25px;
+    margin-right: 45px;
+}
+.recs {
+    margin-top: 25px;
+    margin-right: 45px;
     
+}
+.nums {
+    margin-top: 25px;
+}
+
+.us {
+}
+.us_welcome {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 63px;
+text-align: center;
+
+color: #E7E7E7;
+
+}
+.us_desc {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
+.us_blocks {
+
+}
+.us_block {
+
+}
+.us_img {
+    display: flex;
+}
+.us_a {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+border: #e60909 2px;
+text-align: center;
+box-sizing: border-box;
+
+}
+
+.us_img {
+    width: 400px;
 }
