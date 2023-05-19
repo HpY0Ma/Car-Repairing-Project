@@ -16,10 +16,11 @@
 <body>
     <div class="wrapper">
         <header class="header">
+            <nav class="logo">
+                <img src="img/Elements/logo.svg" alt="Logotype" class="logo2">
+            </nav class="nav">
             <nav class="container header_container">
-                <nav class="logo">
-                    <img src="img/Elements/logo.svg" alt="Logotype" class="logo2">
-                </nav class="nav">
+
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#!" class="nav__link">Главная</a>
@@ -36,14 +37,26 @@
                 </ul>
 
                 <address class="contacts">
-                    <p class="location nav__link"> Москва, Ленинградское шоссе 29-35</p>
-                    <a class="tel nav__link">+7 (999) 143 12-89</a>
+                    <p class="location nav__link"><svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_885_2298)">
+                        <path d="M9.50008 0C6.4626 0 4 2.39701 4 5.35392C4 8.81536 8.58335 15 9.50008 15C10.417 15 15 8.81536 15 5.35392C15 2.39701 12.5377 0 9.50008 0ZM9.50008 8.36948C7.78067 8.36948 6.38651 7.01237 6.38651 5.33865C6.38651 3.66479 7.78067 2.30783 9.50008 2.30783C11.2198 2.30783 12.6136 3.66494 12.6136 5.33865C12.6136 7.01222 11.2198 8.36948 9.50008 8.36948Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_d_885_2298" x="0" y="0" width="19" height="23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_885_2298"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_885_2298" result="shape"/>
+                        </filter>
+                        </defs>
+                        </svg>
+                         Москва, Ленинградское шоссе 29-35</p>
+                    <a class="tel nav__link">+7 (123) 456 17-89</a>
                 </address>
-                <div class="burger">
-                    <span class="burger__el"></span>
-                </div>
-                </li>
-                </ul>
             </nav>
         </header>
         <main class="main">
@@ -53,16 +66,18 @@
                         <div class="Title">
                             <h1>Кузовной ремонт<br>
                                 Любой сложности</h1>
+                            </div>
+                            
                             <p class="hero__subtitle">
-                                На Ленинградском шоссе в Москве
+                                     На Ленинградском шоссе в Москве
                             </p>
                             <div class="hero_btns">
-                                <button сlass="btn">Оставить заявку</button>
+                                <button сlass="ntb">Оставить заявку</button>
                                 <button class="btn">Оценить стоимоть ремонта по фото</button>
                             </div>
                             <p class="hero__call-top-action">Оставляйте заявку сейчас и получите <span>10% скидку</span>
                                 на покраску</p>
-                        </div>
+                        
                     </div>
                     <ul class="advantages">
                         <li class="advantage">
@@ -87,42 +102,171 @@
                                     fill="white" />
                             </svg>
                             <p>Гарантия 1 год</p>
-
                         </li>
                     </ul>
                 </div>
-                <div class="full-menu">
-                    <nav class="container header_container">
-                        <nav class="logo">
-                            <img src="img/Elements/logo.svg" alt="Logotype" class="logo2">
-                        </nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#!" class="nav__link">Главная</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!" class="nav__link">Услуги</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!" class="nav__link">Примеры работ</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!" class="nav__link">Контакты</a>
-                            </li>
-                        </ul>
-                        <div class="burger-close">
-                            <div class="burger">
-                                <span class="burger__el burger__el_close"></span>
-                            </div>
-                        </div>
-                </div>
-                <div class="numbers">
-                    <a href="tel numbers__tel">+7 (901) 704-13-44</a>
-                    <a href="tel numbers__tel">+7 (916) 780-22-59</a>
-                </div>
+
             </section>
-        </main>
+            <section class="about_us">
+                <div class="welcome">
+                    Подробнее о центре Автопокраски
+                </div>
+                <div class="welcome__gr">
+                    Полное или частичное ЛКП за короткие сроки с гарантией качевством
+                    <div class="numbers_1">
+                        <p class="number__1">01</p>
+                        <p class="number__1">02</p>
+                    </div>
+
+                </div>
+                <div class="descreptions">
+                    <div class="descreption_1">
+                        Уже 6 лет мы занимаемся качественным <br>
+                        восстановлением машин от повреждений <br>
+                        разной сложности. Рейтинг нашей <br>
+                        мастерской на Яндексе составляет 4,5. <br>
+                    </div>
+                    <div class="descreption_2">
+                        Заметили следы естественного износа? <br>
+                        Мы легко удалим царапины, вмятины, <br>
+                        коррозию и ржавчину, которые могут <br>
+                        изрядно подпортить внешний вид автомобиля. <br>
+
+    
+                        </div>
+                    </div>
+                </div>
     </div>
+    </section>
+
+    <section class="hero_2">
+        <div class="welcome_3">
+            Выгоды
+        </div>
+        <div class="desc_3">
+            Ваш автомобиль будет блестеть как после покупки, а вы будете довольны выбором</a>
+        </div>
+        <ul class="boxes">
+            <li class="box__item">
+                <a href="#!" class="box">Удобная локация на Ленинградском шоссе</a>
+
+
+            </li>
+            <li class="box__item"><a href="#!" class="box">Работаем по заказ-наряду с предоставлением гарантийных
+                    обязательств</a>
+
+
+            </li>
+            <li class="box__item">
+                <a href="#!" class="box">Осмотр автомобиля производится бесплатно</a>
+
+
+
+            </li>
+            <li class="box__item">
+                <a href="#!" class="box">Для вашего удобства возможен наличный и безналичный расчет</a>
+
+
+            </li>
+            <li class="box__item">
+                <a href="#!" class="box">Для юридических лиц возможна оплата переводом на расчётный счёт</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="examples">
+
+    </section>
+    <div class="example__welcome">
+        Примеры работ
+    </div>
+    <div class="example__desc">Наша автомастерская - это семейный бизнес, поэтому мы делаем все как для себя. <br>
+        Качественно. Надолго. Без переплат. Посмотрите примеры выполненных работ, <br>
+        чтобы быть уверенным в надежности специалистов, в руки которых вы передадите автомобиль <br></div>
+    <ul class="example__img-block">
+        <li class="repair_car">
+            <img src="img/Elements/repaired_car.png" alt="rpcar" class="repaired__car">
+        </li>
+        <li class="repair_car">
+            <img src="img/Elements/repaired_car.png" alt="rpcar" class="repaired__car">
+        </li>
+        <li class="repair_car">
+            <img src="img/Elements/repaired_car.png" alt="rpcar" class="repaired__car">
+        </li>
+        <li class="repair_car">
+            <img src="img/Elements/repaired_car.png" alt="rpcar" class="repaired__car">
+        </li>
+    </ul>
+    <button class="button2">Посмотреть еще</button>
+
+
+
+    </div>
+    <section class="reviews">
+        <div class="reviews__welcome">Отзывы клиентов</div>
+        <div class="reviews__desc">Посмотрите на отзывы тех, кто уже обращался в нашу автомастерскую</div>
+        <div class="review"><img src="img/Elements/answer.png" alt="По" class="review__img">
+            <img src="img/Elements/answer.png" alt="По" class="review__img">
+        </div>
+    </section>
+    <section class="order__hero">
+        <div class="order__welcome">
+            Испытайте снова ту радость, когда вы только купили блестящую <br>
+            машинку в салоне! Качественный покрас и ремонт автомобиля <br>
+            - это отличный вариант обновить авто без покупки нового <br>
+        </div>
+        </div>
+        <div class="left__sec">
+            <div class="order__desc"> Вы можете добавить фото для оценки <br>
+                стоимости ремонта через форму</div>
+            <button class="add__file-btn">Добавить файл</button>
+        </div>
+
+        <div class="right_sec">
+
+            <input type="text" placeholder="Ваше имя" class="order__input">
+            <input type="text" placeholder="Ваше имя" class="order__input">
+            <p class="order__call_btn">Заказать звонок</p>
+
+        </div>
+
+    </section>
+    <section class="map_section">
+
+        <img src="img/Elements/map.jpg" alt="map" class="map">
+
+    </section>
+
 </body>
+<section class="down__desc">
+    <div class="hero_3">
+        <div class="logoty"><img src="img/Elements/logo.svg" alt=""></div>
+        <div class="lct"><svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_885_2298)">
+            <path d="M9.50008 0C6.4626 0 4 2.39701 4 5.35392C4 8.81536 8.58335 15 9.50008 15C10.417 15 15 8.81536 15 5.35392C15 2.39701 12.5377 0 9.50008 0ZM9.50008 8.36948C7.78067 8.36948 6.38651 7.01237 6.38651 5.33865C6.38651 3.66479 7.78067 2.30783 9.50008 2.30783C11.2198 2.30783 12.6136 3.66494 12.6136 5.33865C12.6136 7.01222 11.2198 8.36948 9.50008 8.36948Z" fill="white"/>
+            </g>
+            <defs>
+            <filter id="filter0_d_885_2298" x="0" y="0" width="19" height="23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_885_2298"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_885_2298" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+            Москва, Ленинградское шоссе 29-35</div>
+        <div class="rec_info">Юр. реквизиты</div>
+        <div class="recs">ИНН 026601687198 <br>
+            ОГРН 322774600628427 <br> </div>
+        <address class="nums">+7 (901) 704-13-44 <br>
+            +7 (916) 780-22-59 <br></address>
+    </div>
+</section>
+
+</main>
 
 </html>

@@ -1,0 +1,50 @@
+    <section class="us">
+        <div class="us_welcome">Услуги</div>
+        <div class="us_desc">Помимо нанесения лакокрасочных покрытий вы можете получить 
+            услуги по ремонту и вернуть своей "ласточке" заводской вид</div>
+        <div class="us_blocks">
+            <ul>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                <li class="us_block">
+                    <img src="img/Content/ez.png" alt="rpcar" class="us_img">
+
+
+                </li>
+                
+            </ul>
+        </div>
+    </section>
